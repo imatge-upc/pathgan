@@ -14,10 +14,10 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Recurrent Neural Networks for Semantic Instance Segmentation"
-keywords:    "segmentation, recurrent, computer vision, deep learning, end-to-end"
-description: "Project page for Recurrent Neural Networks for Semantic Instance Segmentation"
-source_link: "https://github.com/imatge-upc/rsis"
+title:       "PathGan: Visual Scan-path Prediction with Generative Adversarial Networks"
+keywords:    "saliency, scanpath, adversarial training, GAN, cGAN"
+description: "Project page for PathGan: Visual Scan-path Prediction with Generative Adversarial Networks"
+source_link: "https://github.com/imatge-upc/pathgan"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 # google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
