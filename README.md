@@ -77,11 +77,13 @@ Model Architecture:
 ## Examples
 We provide examples of predicted object sequences for two datasets.
 
-iSun
+##### 1. iSun
 
 ![ex-isun](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_isun.png)
 
-Salient360!
+##### 2. Salient360!
+
+
 
 ![ex-360](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_360.png)
 
