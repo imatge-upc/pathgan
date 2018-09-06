@@ -43,7 +43,7 @@ We introduce PathGAN, a deep neural network for visual scanpath prediction train
 
 Find the pre-print version of our work on [arXiv](https://arxiv.org/abs/1809.00567).
 
-![Image of the paper](https://github.com/massens/saliency-360salient-2017/raw/master/figs/paper.png)
+![Image of the paper](https://github.com/imatge-upc/pathgan/raw/master/figs/paper.png)
 
 Please cite with the following Bibtex code:
 
@@ -67,24 +67,23 @@ You may also want to refer to our publication with the more human-friendly Chica
 The model is composed by two deep neural networks, the generator and the discriminator, whose combined efforts aim at predicting a realistic scanpath from a given image.
 
 Model Architecture:
-![architecture-fig]
+![architecture-fig](https://github.com/imatge-upc/pathgan/raw/master/figs/model.png)
 
-TODO
-* [[Scan-path generator model (100 MB)]](https://github.com/massens/saliency-360salient-2017/blob/master/src/pathnet_model_v2.h5)
+* [[Scan-path generator model (100 MB)]]()
 
-TODO
-[architecture-fig]: https://github.com/massens/saliency-360salient-2017/raw/master/figs/model.png "Model architecture"
+
+
 
 ## Examples
 We provide examples of predicted object sequences for two datasets.
 
-iSUN
+iSun
 
-![CVPPP results](./img/ex_isun.png)
+![ex-isun](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_isun.png)
 
 Salient360!
 
-![Pascal results](./img/ex_360.png)
+![ex-360](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_360.png)
 
 
 The big dot indicates the first fixation of the scanpath. 
@@ -97,12 +96,15 @@ The model is implemented in [Keras](https://github.com/fchollet/keras/tree/maste
 ## Acknowledgements
 We especially want to thank our technical support team:
 
-<div class="author">
-    <a href="https://imatge.upc.edu/web/people/albert-gil-moreno" target="_blank">
-      <div class="authorphoto"><img src="./assets/gil.jpg"></div>
-      <div>Albert Gil</div>
-    </a>
-</div>
+| ![AlbertGil-photo]  |
+|:-:|
+| [Albert Gil](AlbertGil-web)   |
+
+[AlbertGil-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/AlbertGil.jpg "Albert Gil"
+[JosepPujal-photo]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/authors/JosepPujal.jpg "Josep Pujal"
+
+[AlbertGil-web]: https://imatge.upc.edu/web/people/albert-gil-moreno
+[JosepPujal-web]: https://imatge.upc.edu/web/people/josep-pujal
 
 |   |   |
 |:--|:-:|
@@ -110,6 +112,6 @@ We especially want to thank our technical support team:
 |  The Image Processing Group at the UPC is a [SGR14 Consolidated Research Group](https://imatge.upc.edu/web/projects/sgr14-image-and-video-processing-group) recognized and sponsored by the Catalan Government (Generalitat de Catalunya) through its [AGAUR](http://agaur.gencat.cat/en/inici/index.html) office. |  ![logo-catalonia] |
 |  This work has been developed in the framework of projects TEC2013-43935-R and TEC2016-75976-R, financed by the Spanish Ministerio de Economía y Competitividad and the European Regional Development Fund (ERDF).  | ![logo-spain] | 
 
-[logo-nvidia]: ./assets/nvidia.jpg "Logo of NVidia"
-[logo-catalonia]: ./assets/generalitat.jpg "Logo of Catalan government"
-[logo-spain]: ./assets/MEyC.png "Logo of Spanish government"
+[logo-nvidia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/nvidia.jpg "Logo of NVidia"
+[logo-catalonia]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/generalitat.jpg "Logo of Catalan government"
+[logo-spain]: https://raw.githubusercontent.com/imatge-upc/saliency-2016-cvpr/master/logos/MEyC.png "Logo of Spanish government"
