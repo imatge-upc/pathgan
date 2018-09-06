@@ -69,7 +69,7 @@ The model is composed by two deep neural networks, the generator and the discrim
 Model Architecture:
 ![architecture-fig](https://github.com/imatge-upc/pathgan/raw/master/figs/model.png)
 
-* [[Scan-path generator model (100 MB)]]()
+* [[Scan-path generator model (100 MB)]](https://drive.google.com/open?id=1p3Wn3C9doWiX4DqyDFQeMvCBwGZHHECo)
 
 
 
