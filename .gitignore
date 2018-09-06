@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+
+src/generator_weights.h5
+./src/generator_weights.h5
+/src/generator_weights.h5
 __pycache__/
 *.py[cod]
 *$py.class
