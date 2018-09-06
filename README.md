@@ -93,7 +93,7 @@ The big dot indicates the first fixation of the scanpath.
 
 ## Software frameworks: Keras
 
-The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [Theano](http://deeplearning.net/software/theano/).
+The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [Tensorflow](https://www.tensorflow.org/).
 
 ## Acknowledgements
 We especially want to thank our technical support team:
