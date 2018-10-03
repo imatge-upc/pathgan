@@ -2,6 +2,7 @@
 
 import click
 import predict as pathgan
+import emoji
 
 
 __author__ = "Marc Assens"
@@ -21,12 +22,14 @@ def predict(img_path, out_path):
         
         
         - On Marc's Computer - 
-        python pathgan-cli.py  --img_path /Users/massens/Documents/playground/titan/salient360_submission_code/submission_evaluation/test_images --out_path /Users/massens/Documents/playground/pathgan/output/1_weights_with_time_at_0
+        python pathgan-cli.py  --img_path /Users/massens/Documents/playground/titan/salient360_submission_code/submission_evaluation/test_images --out_path /Users/massens/Documents/
     """
 
 
     print('\n\n###########################')
-    print('Starting program')
+    print(emoji.emojize(':fire:   Starting program '))
+    print(emoji.emojize(':thinking_face:   Make sure that the generator weights are in ../weights/'))
+    print('\n\n###########################')
     print(img_path)
     pathgan.predict_and_save(img_path, out_path)
 

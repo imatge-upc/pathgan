@@ -1,4 +1,3 @@
-import dataset_utils as dataset
 import models
 from keras.models import *
 from keras.optimizers import SGD, RMSprop
@@ -67,7 +66,7 @@ def predict(img_path):
     dropout                 = 0.1
     dataset_path            = '/root/sharedfolder/predict_scanpaths/finetune_saltinet_isun/input/salient360_EVAL_noTime.hdf5'
     model360                = 'false'
-    weights_generator       = './weights_pathgan/dev/final/generator_single_weights.h5'
+    weights_generator       = '../weights/generator_single_weights.h5'
     opt = RMSprop(lr=lr, rho=0.9, epsilon=1e-08, decay=0.0)
 
 
