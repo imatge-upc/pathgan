@@ -58,7 +58,7 @@ year={2018}
 
 You may also want to refer to our publication with the more human-friendly Chicago style:
 
-*Marc Assens, Xavier Giro-i-Nieto, Kevin McGuinness, Noel E. O’Connor. “PathGAN: Visual Scanpath Prediction with Generative Adversarial Networks”, ECCV Workshop on Egocentric Perception, Interaction and Computing (EPIC), 2018.*
+*Marc Assens, Xavier Giro-i-Nieto, Kevin McGuinness, Noel E. O’Connor. [“PathGAN: Visual Scanpath Prediction with Generative Adversarial Networks”](https://openaccess.thecvf.com/content_eccv_2018_workshops/w26/html/Assens_PathGAN_Visual_Scanpath_Prediction_with_Generative_Adversarial_Networks_ECCVW_2018_paper.html), ECCV Workshop on Egocentric Perception, Interaction and Computing (EPIC), 2018.*
 
 
 
