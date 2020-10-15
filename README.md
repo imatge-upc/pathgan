@@ -69,9 +69,9 @@ The model is composed by two deep neural networks, the generator and the discrim
 Model Architecture:
 ![architecture-fig](https://github.com/imatge-upc/pathgan/raw/master/figs/model.png)
 
-* [[Scan-path generator model (100 MB)]](https://drive.google.com/open?id=1p3Wn3C9doWiX4DqyDFQeMvCBwGZHHECo)
+The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [Tensorflow](https://www.tensorflow.org/).
 
-
+* [[Scan-path generator model for Salient 360! dataset (250 MB)]](https://drive.tsc.upc.edu/index.php/s/tfoLeEasPsD9diA)
 
 
 ## Examples
@@ -81,19 +81,18 @@ We provide examples of predicted object sequences for two datasets.
 
 ![ex-isun](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_isun.png)
 
-##### 2. Salient360!
+##### 2. [Salient360! Benchmark & Challenges](https://salient360.ls2n.fr/)
 
+Our model ranked #2 in the [ICME'18 Grand Challenge on Salient360!)](https://salient360.ls2n.fr/grand-challenges/icme18/).
 
+* [Scanpaths generated for tasks 3 & 4 of the ICME Salient360 Grand Challenge 2018](https://drive.tsc.upc.edu/index.php/s/2TbtjaoyjwjqHHB)
+* [Results for Model Type 3: Prediction of Eye-gaze Scan-paths](https://drive.tsc.upc.edu/index.php/s/C9wsb6SrZPe43CM)
+* [Results for Model Type 4: Prediction of Head-gaze Scan-paths](https://drive.tsc.upc.edu/index.php/s/6sfx8FfsRQG99dq)
+
+The big dot indicates the first fixation of the scanpath: 
 
 ![ex-360](https://github.com/imatge-upc/pathgan/raw/master/figs/ex_360.png)
 
-
-The big dot indicates the first fixation of the scanpath. 
-
-
-## Software frameworks: Keras
-
-The model is implemented in [Keras](https://github.com/fchollet/keras/tree/master/keras), which at its time is developed over [Tensorflow](https://www.tensorflow.org/).
 
 ## Acknowledgements
 We especially want to thank our technical support team:
